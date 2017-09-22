@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <title>My Profile Page</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,19 +10,22 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
         crossorigin="anonymous">
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/bootstrap/4.0.0-alpha.5/css/bootstrap-flex.min.css"> -->
+
     <link rel="stylesheet" type="text/css" href="myProfile.css">
 
-    <style type="text/css">
+
+    <!--<style type="text/css">
         * {
             border: 1px dotted blue;
         }
-    </style>
+    </style> -->
 
 </head>
 
 
 <body class="my-body">
-    <!--<h1>Hello, world!</h1>-->
+    <!--<h1>TEST</h1>-->
 
 
     <div class="container-fluid">
@@ -31,30 +35,41 @@
 
             <div class="col-9">
                 <h5 class=" my-title my-strong2"> Rainne Ng</h5>
-                <h6> <em> Freelance CG Artist</em></h6>
-                <hr class="my-hr"> 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tortor eros. Ut consequat aliquam felis
-                sed porta. Sed gravida dui lacus, eget commodo neque lacinia eget. Sed elit felis, tincidunt vel sem a, tincidunt
-                commodo dui. Nulla facilisi. Sed pharetra quis arcu sit amet sodales. Maecenas quis lectus ac orci dapibus
-                sodales vitae non turpis. Fusce neque erat, placerat ut ligula quis, dignissim sodales magna. Nam pellentesque
-                lobortis magna non fermentum. Morbi tempus sed turpis at feugiat. Proin pharetra condimentum euismod. Maecenas
-                nec felis sapien. Nunc at nibh rutrum leo ultrices congue. Phasellus facilisis nunc eget ornare imperdiet.
-                In blandit pharetra odio ornare sollicitudin. Vivamus interdum consequat nulla, in ultricies elit lacinia
-                eget. Aliquam feugiat dictum diam posuere consequat. Etiam dolor massa, sodales vel libero ac, suscipit sagittis
-                turpis. Donec ipsum ligula, gravida a pretium sit amet, iaculis sit amet elit. Nulla facilisi. In vel vestibulum
-                enim, eget luctus elit. Integer et elit tempor, iaculis tortor in, porta lectus. Vivamus vel vulputate urna.
-                Suspendisse interdum nulla quis erat feugiat, eu molestie dolor tempor. Mauris et urna eget magna elementum
-                varius at sollicitudin quam. Phasellus iaculis risus neque, quis consequat tortor sagittis id. Fusce euismod
-                turpis vel volutpat mollis. Phasellus.
-
+                <h6 class="my-subtitle my-strong2"> <em> CG Artist</em></h6>
+                <hr class="my-hr">
+                <p class="my-paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tortor eros. Ut consequat aliquam felis sed porta. Sed
+                    gravida dui lacus, eget commodo neque lacinia eget. Sed elit felis, tincidunt vel sem a, tincidunt commodo
+                    dui. Nulla facilisi. Sed pharetra quis arcu sit amet sodales. Maecenas quis lectus ac orci dapibus sodales
+                    vitae non turpis. Fusce neque erat, placerat ut ligula quis, dignissim sodales magna. Nam pellentesque
+                    lobortis magna non fermentum. Morbi tempus sed turpis at feugiat. Proin pharetra condimentum euismod.
+                    Maecenas nec felis sapien. Nunc at nibh rutrum leo ultrices congue. Phasellus facilisis nunc eget ornare
+                    imperdiet. In blandit pharetra odio ornare sollicitudin. Vivamus interdum consequat nulla, in ultricies
+                    elit lacinia eget. Aliquam feugiat dictum diam posuere consequat. Etiam dolor massa, sodales vel libero
+                    ac, suscipit sagittis turpis. Donec ipsum ligula, gravida a pretium sit amet, iaculis sit amet elit.
+                    Nulla facilisi. In vel vestibulum enim, eget luctus elit. Integer et elit tempor, iaculis tortor in,
+                    porta lectus. Vivamus vel vulputate urna. Suspendisse interdum nulla quis erat feugiat, eu molestie dolor
+                    tempor. Mauris et urna eget magna elementum varius at sollicitudin quam. Phasellus iaculis risus neque,
+                    quis consequat tortor sagittis id. Fusce euismod turpis vel volutpat mollis. Phasellus.
+                </p>
+                <p class="mt-4">
+                    <ul class="my-list">
+                        <li>2013 - The Hunger Games: Catching Fire </li>
+                        <li>2014 - The Hunger Games: Mockingjay (Part 1) </li>
+                        <li>2015 - The Hunger Games: Mockingjay (Part 2) </li>
+                    </ul>
+                </p>
+                <hr class="my-hr">
             </div>
 
             <div class="col-3">
-                Contact Me
-                <div class="col-12">
-                    <form action="#" method="POST">
+                <p class="my-subtitle mt-5 ml-3">Contact Me </p>
+
+                <div class="col-12 my-form">
+                    <form action="https://script.google.com/macros/s/AKfycbwh5Jg3OexaC5fVMeXEPx8r3Yi-h3p0TC1JOCBRo4uxMV6hKDA/exec" method="POST">
                         <!-- # : to go back to the page where the form is. 
                                                             Since this is just a demo, we dun have an actual link. So just use # here. -->
+                        
                         <div class="form-group ">
                             <label for="name-id">Name</label>
                             <input type="text" name="NAME" id="name-id" class="form-control">
@@ -66,8 +81,24 @@
                         </div>
 
                         <div class="form-group">
-                            <input type="submit" class="btn btn-primary">
+                            <!-- <input type="submit" class="btn btn-primary" id="submit-id"> -->
+                            <button type="submit" class="btn btn-default my-btn form-control" id="submit-id">submit</button>
+                            
+                            
+                            <div class="alert alert-danger alert-dismissible" hidden id="alert-id">
+                                <button type="button" class="close" id="close-id">
+                                     <span>&times;</span>
+                                </button>
+
+                                <p>Thank you! We'll get in touch.</p>
+
+                            </div>
+                            
+
+
+
                         </div>
+                        
                     </form>
                 </div>
             </div>
@@ -75,18 +106,65 @@
 
         </div>
 
-         <!-- ____________________ SECOND ROW ____________________  -->
-         <div class="row">
-             <div class="col-4">
-                 Artworks
-             </div>
-             <div class="col-4">
-                    Films
+        <!-- ____________________ SECOND ROW ____________________  -->
+        <div class="row my-subtitle mt-5">
+            <div class="col-4">
+
+                <!-- <img src="Images/Nicole_s.jpg"> -->
+                <center><a href="myProfile.html"> <img class="img-fluid "  id="myImg" src="Images/Nicole_s.jpg" alt="Artworks Image Not Found."> </a></center>
+                <p>
+                    <center>Artworks </center>
+                </p>
+            </div>
+
+            <div class="col-4">
+
+                <center><a href="myProfile.html"> <img class="img-fluid "  id="myImg" src="Images/lighting_s.jpg" alt="Lighting Image Not Found."> </a></center>
+
+                <p>
+                    <center>Lighting </center>
+                </p>
+
+            </div>
+            <div class="col-4">
+
+                <center><a href="myProfile.html"> <img class="img-fluid "  id="myImg" src="Images/shockwave_s.jpg" alt="Effects Image Not Found."> </a></center>
+
+                <p>
+                    <center>Effects </center>
+                </p>
+
+            </div>
+        </div>
+
+        <!-- ____________________ THIRD ROW ____________________  -->
+        <div class="row ">
+            <div class="col-3"></div>
+            <div class="col-6 my-subtitle2">
+                <!--Why without this div, the text align center in .css can't work?-->
+
+                <!-- <p><center>Showreels</center></p> -->
+                <!--<center>TEST</center>   -->
+                <div class="embed-responsive embed-responsive-16by9 mt-5">
+
+                    <!--omitting the "embed-responsive item" below seems to work too -->
+                    <!--<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/137082887" width="640" height="360" frameborder="0" 
+                            webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+                    <iframe src="https://player.vimeo.com/video/142718320" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
                 </div>
-                <div class="col-4">
-                        Showreels
-                    </div>
-         </div>
+                <p>Showreel</p>
+
+
+
+
+
+
+            </div>
+            <div class="col-3"></div>
+
+        </div>
+    </div>
 
     </div>
 
@@ -95,12 +173,22 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
         crossorigin="anonymous"></script>
+        <script>    -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="index_A.js"></script>
+
+
+    
+
+
 </body>
 
 </html>
